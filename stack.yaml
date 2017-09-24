@@ -48,7 +48,7 @@ packages:
 # extra-package-dbs: []
 
 # Control whether we use the GHC we find on the path
-# system-ghc: true
+system-ghc: true
 #
 # Require a specific version of stack, using version ranges
 # require-stack-version: -any # Default
@@ -56,7 +56,7 @@ packages:
 #
 # Override the architecture used by stack, especially useful on Windows
 # arch: i386
-# arch: x86_64
+arch: x86_64
 #
 # Extra directories used by stack for building
 # extra-include-dirs: [/path/to/dir]
