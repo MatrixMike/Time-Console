@@ -20,8 +20,9 @@ main :: IO ()
 main = do
   (x:xs) <- getArgs
   (_, Just hout, _, _) <- createProcess (proc x xs) {std_out = CreatePipe}
-  sequenceWhileTrue $
-    ((flip map)
+  sequenceWhileTrue
+    (flip
+       map
        [1 ..]
        (\x -> do
           ((more, line0), time0) <-
@@ -34,7 +35,7 @@ main = do
                 else return (more, "")
           when
             more
-            (putStrLn $ show x ++ ":" ++ printf "%f" (time0) ++ ":" ++ line0)
+            (putStrLn $ show x ++ ":" ++ printf "%f" time0 ++ ":" ++ line0)
           return more))
 
 timeAction :: IO a -> IO (a, Float)
