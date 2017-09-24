@@ -1,14 +1,14 @@
-1:0.003018195:total 2.6M
-1:0.000011682:drwx------ 71 mikeh mikeh 4.0K Sep 24 22:27 ..
-2:0.0000112:-rw-rw-r--  1 mikeh mikeh  534 Sep 24 22:27 timeconsole.cabal
-2:0.000009956:-rw-rw-r--  1 mikeh mikeh   46 Sep 24 22:27 Setup.hs
-3:0.000010158:-rw-rw-r--  1 mikeh mikeh  538 Sep 24 22:27 README.md
-3:0.000009043:-rw-rw-r--  1 mikeh mikeh  18K Sep 24 22:27 LICENSE
-4:0.000007029:-rw-rw-r--  1 mikeh mikeh 2.2K Sep 24 22:28 Main.hi
-4:0.000006223:-rw-rw-r--  1 mikeh mikeh 1.3K Sep 24 22:33 Main.hs
-5:0.000009429:-rw-rw-r--  1 mikeh mikeh  21K Sep 24 22:33 Main.o
-5:0.00000938:-rwxrwxr-x  1 mikeh mikeh 2.6M Sep 24 22:33 Main
-6:0.000010144:-rw-rw-r--  1 mikeh mikeh  185 Sep 24 22:36 .gitignore
-6:0.000009563:drwxrwxr-x  8 mikeh mikeh 4.0K Sep 24 22:37 .git
-7:0.000006744:drwxrwxr-x  3 mikeh mikeh 4.0K Sep 24 22:40 .
-7:0.000009641:-rw-rw-r--  1 mikeh mikeh    0 Sep 24 22:40 testOut.txt
+1:0.00298349:total 2.6M
+1:0.000011524:drwx------ 71 mikeh mikeh 4.0K Sep 24 22:27 ..
+2:0.000010723:-rw-rw-r--  1 mikeh mikeh  534 Sep 24 22:27 timeconsole.cabal
+2:0.000008998:-rw-rw-r--  1 mikeh mikeh   46 Sep 24 22:27 Setup.hs
+3:0.000009326:-rw-rw-r--  1 mikeh mikeh  538 Sep 24 22:27 README.md
+3:0.000005208:-rw-rw-r--  1 mikeh mikeh  18K Sep 24 22:27 LICENSE
+4:0.000006261:-rw-rw-r--  1 mikeh mikeh  185 Sep 24 22:36 .gitignore
+4:0.000005889:-rw-rw-r--  1 mikeh mikeh 2.3K Sep 24 22:45 Main.hi
+5:0.000010103:drwxrwxr-x  8 mikeh mikeh 4.0K Sep 24 22:49 .git
+5:0.00000846:-rw-rw-r--  1 mikeh mikeh 1.2K Sep 24 22:50 Main.hs
+6:0.000009549:-rw-rw-r--  1 mikeh mikeh  21K Sep 24 22:50 Main.o
+6:0.000005652:drwxrwxr-x  3 mikeh mikeh 4.0K Sep 24 22:50 .
+7:0.00001012:-rwxrwxr-x  1 mikeh mikeh 2.6M Sep 24 22:50 Main
+7:0.000008425:-rw-rw-r--  1 mikeh mikeh    0 Sep 24 22:51 testOut.txt
