@@ -21,7 +21,7 @@ main = do
   (x:xs) <- getArgs
   (_, Just hout, _, _) <- createProcess (proc x xs) {std_out = CreatePipe}
   sequenceWhileTrue
-    (flip
+    (flip      --flip f takes its (first) two arguments in the reverse order of f
        map
        [1 ..]
        (\x -> do
