@@ -1,4 +1,4 @@
-
+{-# OPTIONS_GHC -fwarn-missing-signatures #-}
 import System.Environment
 import System.IO
 import Control.Monad
@@ -7,12 +7,13 @@ import Control.Applicative
 import Text.Printf
 import Data.Time
 
+sequenceWhileTrue :: Monad m => [m Bool] -> m ()
 sequenceWhileTrue [] = return ()
 sequenceWhileTrue (m:ms) = do 
                 r <- m 
                 if r then m >> sequenceWhileTrue ms
                      else return ()
-
+main :: IO ()
 main = do
        (x:xs) <- getArgs
        (_, Just hout, _, _) <-
@@ -28,6 +29,7 @@ main = do
           when more (putStrLn $ show x ++ ":" ++  printf "%f" (time0) ++ ":" ++ line0)
           return more))
 
+timeAction :: IO a -> IO (a, Float)
 timeAction action = do
     t1 <- getCurrentTime
     g <- action
