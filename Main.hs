@@ -19,6 +19,8 @@ sequenceWhileTrue (m:ms) = do
 main :: IO ()
 main = do
   (x:xs) <- getArgs
+  putStrLn  x
+--  putStrLn $ xs
   (_, Just hout, _, _) <- createProcess (proc x xs) {std_out = CreatePipe}
   sequenceWhileTrue
     (flip      --flip f takes its (first) two arguments in the reverse order of f

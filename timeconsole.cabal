@@ -7,6 +7,7 @@ license-file: LICENSE
 maintainer: hawk.alan@gmail.com
 homepage: https://github.com/xpika/Time-Console
 synopsis: time each line of terminal output
+description: utility to snapshot the time, run the command and snapshot after command execution then printing the results
 category: Testing
 author: Alan Hawkins
 
